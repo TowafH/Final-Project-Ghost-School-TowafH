@@ -1,0 +1,89 @@
+html,body{
+	height: 99%;
+	width: 99%;
+}
+*{
+	box-sizing: border-box;
+}
+.banner{
+	background-color: #D7BA89;
+	margin: 15px;
+	padding: 10px;
+	border: 3px solid #192A51;
+	box-shadow: 1px 3px 10px 1px #192A51;
+	text-transform: capitalize;
+	text-shadow: 1px 1px white;
+	font-family: Georgia;
+	height: 120px;
+	text-align: left;
+	font-style: italic;
+  background-image: url(PixArt_Sky.png);
+}
+h1{
+	font-size: 0.7em;
+  color: navy;
+  font-family: Georgia;
+  z-index: 3;
+}
+h2{
+  color: #D7BA89;
+}
+
+#logo{
+	width: 100px;
+	position: absolute;
+	top: 30px;
+	left: 250px;
+  z-index: 2;
+}
+#background{
+  position: absolute;
+  height: 800px;
+  top: 0px;
+  left: 0px;
+  background-size:cover;
+}
+#background2{
+  width: 100px;
+  position: absolute;
+  top: 17.5px;
+  left: 100px;
+  z-index: 1;
+  background-size:cover;
+}
+.container{
+	border:2px navy solid;
+	position: relative;
+	top: 2px;
+	margin: 15px;
+	padding: 10px;
+	height: 700px;
+	overflow: hidden;
+	background-color: #D7BA89;
+}
+.wave{
+	border: #192A51 1px solid;
+	color: whitesmoke;
+	text-align: center;
+	background-color: #335094;
+	font-size: 0.9em;
+	height: 25px;
+	overflow: hidden;
+	width: 80%;
+	position:relative;
+	left: 10%;
+	transition: height 4s;  
+	display:block;
+}
+#l1{
+	border:#black 1px solid;
+	background-image:repeating-linear-gradient(#192A51, #335094,);
+}
+.wave:hover{
+	height:90%;
+	top:1px;
+	z-index:1;
+}
+body{
+  background-color: #83dcda;
+}

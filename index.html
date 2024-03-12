@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Code.org Unit 4 REVIEW</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="Favicon.png" rel="icon" type="image/png">
+  
+</head>
+<body>
+  <!--The section regarding the banner at the top of the page-->
+  <div class="banner">
+    Thomas A. Edison CTE HS
+    <!--My avatar that I will use in the webpage-->
+    <img src="Avatar.png" id="logo">
+    <h1>Web Development</h1>
+    <h1>Final Project Ghost School</h1>
+    <h1>January 2024</h1>
+    <h1>Towaf Hossain</h1>
+  </div>
+   <!--The end of the banner section-->
+  
+   <!--The begining of the container-->
+  <div class="container">
+    <!--The code for my pixel art background-->
+    <img src="PixArt_Background.png" id="background">
+    <!--This is the section where I will describe the instructions-->
+    <div class="wave" id="l1">
+      Instructions 
+      <hr>
+      <h2>Welcome to Spot the Difference!</h2>
+      <h3>👻 This is a spooky game that takes place in a Ghost School!! 👻</h3>
+      <hr>
+      <!--This is where I describe how to pick a level to the viewer-->
+      <h2>Picking A Level</h2>
+      <h3>Choose between <span style="color: lightgreen">Easy</span>, <span style="color: orange">Medium</span>, or <span style="color: red">Hard</span>. Go easy-breezy or dive right into haunting challenges. <br><br>
+          To pick a level, simply hover your mouse over any of the levels below and witness the magic!</h3>
+      <hr>
+      <!--The is where I talk about HOW to specifically play a level-->
+      <h2>Playing A Level</h2>
+      <h3>To begin playing a level, you must hover your cursor over the magnifying glass, which reveals a room that is filled with different items. <br> <br> You will count till 5 seconds to view the objects in the room while keeping the cursor on the image. <br> <br> Once 5 seconds are up, you must then drag the cursor outside of the image, keeping you're cursor in the blue box. <br> <br> Now, you will have to spot the differences between the two images!</h3>
+      <hr>
+      <h2>Don't Cheat!</h2>
+    </div>
+    <!--start of Easy section-->
+    <div class="wave" id="easy">
+      <h1 style="color: white">First Level</h1>
+    <hr>
+    <h3>Spot the Difference! Difficulty: <span style="color: lightgreen">Easy</span></h3>
+    <img src="Magnifying_Glass.png" width='500'
+      onmouseover="this.src='Easy_BEFORE.png';"
+      onmouseout="this.src='Easy_AFTER.png';">
+      <h4>You have 5 seconds to view the items in the room. <br> Drag the cursor out of the room once the 5 seconds are up! </h4>
+    <hr>
+      <!--end of Easy section-->
+      </div>
+    <!--start of Medium section-->
+    <div class="wave" id="medium">
+      <h1 style="color: white">Second Level</h1>
+      <hr>
+      <h3>Spot the Difference! Difficulty: <span style="color: orange">Medium</span></h3>
+      <img src="Magnifying_Glass.png" width='500'
+        onmouseover="this.src='Medium_BEFORE.png';"
+        onmouseout="this.src='Medium_AFTER.png';">
+      <h4>You have 5 seconds to view the items in the room. <br> Drag the cursor out of the room once the 5 seconds are up! </h4>
+      <hr>
+      <!--end of Medium section-->
+    </div>
+    <!--start of Hard section-->
+    <div class="wave" id="hard">
+      <h1 style="color: white">Third Level</h1>
+      <hr>
+      <h3>Spot the Difference! Difficulty: <span style="color: red">Hard</span></h3>
+      <img src="Magnifying_Glass.png" width="500"
+        onmouseover="this.src='Hard_BEFORE.png';"
+        onmouseout="this.src='Hard_AFTER.png';">
+      <h4>You have 5 seconds to view the items in the room. <br> Drag the cursor out of the room once the 5 seconds are up! </h4>
+      <hr>
+      <!--end of Hard section-->
+    </div>
+
+
+    </div>
+
+</body>
+
+</html>
